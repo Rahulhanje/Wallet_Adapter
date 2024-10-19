@@ -11,7 +11,7 @@ const NavBar = () => {
         <p className='font-bold text-xl text-slate-800'>Wallet Dapp</p>
       </div> 
        <div>
-        <a href="#"><Button>Github</Button></a>
+        <a href="https://github.com/Rahulhanje/Wallet_Adapter.git"><Button>Github</Button></a>
        </div>
     </div>
   )

@@ -59,7 +59,7 @@ export default function Home() {
               <UserBalance />
             </div>
           </div>
-          <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
+          <div className="grid sm:grid-cols-2 grid-cols-1 gap-2 p-5">
             <RequestAirdrop />
             <SignMessage/>
             <SendToken/>
