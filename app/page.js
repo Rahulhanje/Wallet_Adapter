@@ -19,7 +19,7 @@ import UserBalance from "@/components/UserBalance";
 import SendToken from "@/components/SendToken";
 import { ToastContainer, toast } from "react-toastify";
 import { Loader } from "lucide-react";
-import SignMessage from "@/components/SignMessage";
+// import SignMessage from "@/components/SignMessage";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -62,7 +62,7 @@ export default function Home() {
           </div>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
             <RequestAirdrop />
-            <SignMessage />
+            {/* <SignMessage /> */}
             <SendToken />
           </div>
         </WalletModalProvider>

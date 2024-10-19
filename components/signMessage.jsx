@@ -19,6 +19,9 @@ const SignMessage = () => {
     }
     if (!signMessage)
           toast.error("Wallet does not support message signing");
+    // if (message=="")
+    //       toast.error("Please Enter Message");
+    //     return
     try {
       const encodedMessage = new TextEncoder().encode(message);
       const signature = await signMessage(encodedMessage);
