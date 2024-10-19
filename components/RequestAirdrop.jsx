@@ -11,7 +11,6 @@ import 'react-toastify/dist/ReactToastify.css'; // Ensure this is imported
 const RequestAirdrop = () => {
   const wallet = useWallet();
   const { connection } = useConnection();
-  const [loading, setLoading] = useState(false);
   const [amount, setAmount] = useState(0);
 
   async function requestAirdrop() {

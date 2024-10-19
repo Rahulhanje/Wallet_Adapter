@@ -15,10 +15,10 @@ import { clusterApiUrl } from "@solana/web3.js";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import RequestAirdrop from "@/components/RequestAirdrop";
 import UserBalance from "@/components/UserBalance";
-import SignMessage from "@/components/SignMessage";
 import SendToken from "@/components/SendToken";
 import { ToastContainer, toast } from "react-toastify";
 import { Loader } from "lucide-react";
+import SignMessage from "./SignMessage";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -61,8 +61,8 @@ export default function Home() {
           </div>
           <div className="grid sm:grid-cols-2 grid-cols-1 gap-2">
             <RequestAirdrop />
-            <SignMessage />
-            <SendToken />
+            <SignMessage/>
+            <SendToken/>
           </div>
         </WalletModalProvider>
       </WalletProvider>
