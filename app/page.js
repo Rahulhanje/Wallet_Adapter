@@ -1,5 +1,5 @@
 "use client";
-import React, { FC, useMemo, useEffect, useState } from "react";
+import React, {  useMemo, useEffect, useState } from "react";
 import {
   ConnectionProvider,
   WalletProvider,
@@ -15,10 +15,11 @@ import { clusterApiUrl } from "@solana/web3.js";
 import "@solana/wallet-adapter-react-ui/styles.css";
 import RequestAirdrop from "@/components/RequestAirdrop";
 import UserBalance from "@/components/UserBalance";
-import SignMessage from "@/components/SignMessage";
+
 import SendToken from "@/components/SendToken";
 import { ToastContainer, toast } from "react-toastify";
 import { Loader } from "lucide-react";
+import SignMessage from "@/components/SignMessage";
 
 export default function Home() {
   const [isClient, setIsClient] = useState(false);
@@ -33,7 +34,7 @@ export default function Home() {
 
   if (!isClient) {
     return (
-      <p className="h-screen flex justify-center items-center justify-center"><Loader></Loader></p>
+      <p className="h-screen flex justify-center items-center"><Loader></Loader></p>
     ); // Or render a loader/spinner
   }
 
