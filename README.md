@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Solana DApp
 
-## Getting Started
+## Project Overview
 
-First, run the development server:
+This project is a Solana DApp built with Next.js, Tailwind CSS, and Solana Web3.js. It provides users with the ability to interact with the Solana blockchain, including sending and receiving tokens and viewing their balance.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* **User Interface:** A modern and user-friendly interface built with Next.js and Tailwind CSS.
+* **Solana Integration:** Seamless integration with the Solana blockchain through Solana Web3.js.
+* **Token Sending and Receiving:** Users can send and receive tokens on the Solana network.
+* **User Balance Display:** Users can view their current token balance.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Install Node.js and npm:** Ensure you have Node.js and npm installed on your system.
+2. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/solana-dapp.git
+   ```
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-## Learn More
+## Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+2. **Access the DApp:** Open your web browser and navigate to `http://localhost:3000`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact Information
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+This project is maintained by:
 
-## Deploy on Vercel
+* **Email:**  rahulhanje0.7@gmail.com
+* **Website:** https://github.com/Rahulhanje
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Please feel free to contact us if you have any questions or suggestions. 
